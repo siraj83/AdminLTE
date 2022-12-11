@@ -66,13 +66,12 @@ class ControlSidebar {
   collapse() {
     const $body = $('body')
     const $html = $('html')
-    const { target } = this._config
 
     // Show the control sidebar
     if (this._config.controlsidebarSlide) {
       $html.addClass(CLASS_NAME_CONTROL_SIDEBAR_ANIMATE)
       $body.removeClass(CLASS_NAME_CONTROL_SIDEBAR_SLIDE).delay(300).queue(function () {
-        $(target).hide()
+        $(SELECTOR_CONTROL_SIDEBAR).hide()
         $html.removeClass(CLASS_NAME_CONTROL_SIDEBAR_ANIMATE)
         $(this).dequeue()
       })
@@ -87,9 +86,13 @@ class ControlSidebar {
     }, this._config.animationSpeed)
   }
 
-  show() {
+  show(toggle = false) {
     const $body = $('body')
     const $html = $('html')
+
+    if (toggle) {
+      $(SELECTOR_CONTROL_SIDEBAR).hide()
+    }
 
     // Collapse the control sidebar
     if (this._config.controlsidebarSlide) {
@@ -113,15 +116,20 @@ class ControlSidebar {
 
   toggle() {
     const $body = $('body')
-    const shouldClose = $body.hasClass(CLASS_NAME_CONTROL_SIDEBAR_OPEN) ||
-        $body.hasClass(CLASS_NAME_CONTROL_SIDEBAR_SLIDE)
+    const { target } = this._config
 
-    if (shouldClose) {
+    const notVisible = !$(target).is(':visible')
+    const shouldClose = ($body.hasClass(CLASS_NAME_CONTROL_SIDEBAR_OPEN) ||
+      $body.hasClass(CLASS_NAME_CONTROL_SIDEBAR_SLIDE))
+    const shouldToggle = notVisible && ($body.hasClass(CLASS_NAME_CONTROL_SIDEBAR_OPEN) ||
+      $body.hasClass(CLASS_NAME_CONTROL_SIDEBAR_SLIDE))
+
+    if (notVisible || shouldToggle) {
+      // Open the control sidebar
+      this.show(notVisible)
+    } else if (shouldClose) {
       // Close the control sidebar
       this.collapse()
-    } else {
-      // Open the control sidebar
-      this.show()
     }
   }
 
@@ -278,22 +286,24 @@ class ControlSidebar {
   }
 
   // Static
-
-  static _jQueryInterface(operation) {
+  static _jQueryInterface(config) {
     return this.each(function () {
       let data = $(this).data(DATA_KEY)
-      const _options = $.extend({}, Default, $(this).data())
+      const _config = $.extend({}, Default, typeof config === 'object' ? config : $(this).data())
 
       if (!data) {
-        data = new ControlSidebar(this, _options)
+        data = new ControlSidebar($(this), _config)
         $(this).data(DATA_KEY, data)
-      }
+        data._init()
+      } else if (typeof config === 'string') {
+        if (typeof data[config] === 'undefined') {
+          throw new TypeError(`No method named "${config}"`)
+        }
 
-      if (data[operation] === 'undefined') {
-        throw new Error(`${operation} is not a function`)
+        data[config]()
+      } else if (typeof config === 'undefined') {
+        data._init()
       }
-
-      data[operation]()
     })
   }
 }
