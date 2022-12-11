@@ -1,0 +1,156 @@
+[21-Sep-2022 09:43:09 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'whereiea_dumpsys.tickets' doesn't exist in /home4/whereiea/public_html/dumpsys/pages/tables/tickets_list.php:83
+Stack trace:
+#0 /home4/whereiea/public_html/dumpsys/pages/tables/tickets_list.php(83): mysqli->query('SELECT  t.id, t...')
+#1 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/pages/tables/tickets_list.php on line 83
+[24-Sep-2022 02:32:07 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'whereiea_dumpsys.tickets' doesn't exist in /home4/whereiea/public_html/dumpsys/pages/tables/tickets_list.php:83
+Stack trace:
+#0 /home4/whereiea/public_html/dumpsys/pages/tables/tickets_list.php(83): mysqli->query('SELECT  t.id, t...')
+#1 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/pages/tables/tickets_list.php on line 83
+[24-Sep-2022 02:32:11 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'whereiea_dumpsys.tickets' doesn't exist in /home4/whereiea/public_html/dumpsys/pages/tables/tickets_list.php:83
+Stack trace:
+#0 /home4/whereiea/public_html/dumpsys/pages/tables/tickets_list.php(83): mysqli->query('SELECT  t.id, t...')
+#1 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/pages/tables/tickets_list.php on line 83
+[24-Sep-2022 02:33:26 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'whereiea_dumpsys.tickets' doesn't exist in /home4/whereiea/public_html/dumpsys/pages/tables/tickets_list.php:83
+Stack trace:
+#0 /home4/whereiea/public_html/dumpsys/pages/tables/tickets_list.php(83): mysqli->query('SELECT DISTINCT...')
+#1 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/pages/tables/tickets_list.php on line 83
+[25-Sep-2022 03:00:42 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in /home4/whereiea/public_html/dumpsys/pages/tables/ticket_details.php:58
+Stack trace:
+#0 /home4/whereiea/public_html/dumpsys/pages/tables/ticket_details.php(58): mysqli->query('SELECT `imag_pa...')
+#1 /home4/whereiea/public_html/dumpsys/pages/tables/ticket_details.php(142): get_images('1')
+#2 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/pages/tables/ticket_details.php on line 58
+[28-Oct-2022 00:05:22 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'confirmed' in 'field list' in /home4/whereiea/public_html/dumpsys/pages/sources/function.php:252
+Stack trace:
+#0 /home4/whereiea/public_html/dumpsys/pages/sources/function.php(252): mysqli->query('SELECT confirme...')
+#1 /home4/whereiea/public_html/dumpsys/pages/tables/com_details.php(134): qury_free2('SELECT confirme...')
+#2 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 252
+[01-Nov-2022 11:22:31 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "INI_PATH" in /home4/whereiea/public_html/dumpsys/pages/sources/function.php:100
+Stack trace:
+#0 /home4/whereiea/public_html/dumpsys/pages/tables/com_details.php(151): get_details('SELECT * from `...', '\xD8\xA7\xD8\xB3\xD9\x85 \xD8\xA7\xD9\x84\xD8\xB4\xD8\xB1...', 'Cname')
+#1 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 100
+[01-Nov-2022 11:22:47 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "INI_PATH" in /home4/whereiea/public_html/dumpsys/pages/sources/function.php:100
+Stack trace:
+#0 /home4/whereiea/public_html/dumpsys/pages/tables/com_details.php(151): get_details('SELECT * from `...', '\xD8\xA7\xD8\xB3\xD9\x85 \xD8\xA7\xD9\x84\xD8\xB4\xD8\xB1...', 'Cname')
+#1 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 100
+[01-Nov-2022 11:25:14 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "INI_PATH" in /home4/whereiea/public_html/dumpsys/pages/sources/function.php:100
+Stack trace:
+#0 /home4/whereiea/public_html/dumpsys/pages/tables/com_details.php(151): get_details('SELECT * from `...', '\xD8\xA7\xD8\xB3\xD9\x85 \xD8\xA7\xD9\x84\xD8\xB4\xD8\xB1...', 'Cname')
+#1 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 100
+[01-Nov-2022 11:27:21 America/Boise] PHP Warning:  include(../dumpsys/pages/sources/config.php): Failed to open stream: No such file or directory in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 117
+[01-Nov-2022 11:27:21 America/Boise] PHP Warning:  include(): Failed opening '../dumpsys/pages/sources/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 117
+[01-Nov-2022 11:27:21 America/Boise] PHP Warning:  Undefined variable $conn in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 118
+[01-Nov-2022 11:27:21 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_set_charset(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/whereiea/public_html/dumpsys/pages/sources/function.php:118
+Stack trace:
+#0 /home4/whereiea/public_html/dumpsys/pages/sources/function.php(118): mysqli_set_charset(NULL, 'utf8')
+#1 /home4/whereiea/public_html/dumpsys/pages/tables/com_details.php(171): get_details2('SELECT GROUP_CO...', '\xD8\xA7\xD9\x84\xD8\xA8\xD9\x84\xD8\xAF\xD9\x8A\xD8\xA7\xD8...')
+#2 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 118
+[04-Nov-2022 01:59:12 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function main_slide() in /home4/whereiea/public_html/dumpsys/pages/tables/mun_list.php:53
+Stack trace:
+#0 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/pages/tables/mun_list.php on line 53
+[04-Nov-2022 03:38:31 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function main_slide() in /home4/whereiea/public_html/dumpsys/pages/tables/dumps_list.php:55
+Stack trace:
+#0 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/pages/tables/dumps_list.php on line 55
+[04-Nov-2022 04:23:26 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function main_slide() in /home4/whereiea/public_html/dumpsys/pages/tables/mun_wo_dump.php:56
+Stack trace:
+#0 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/pages/tables/mun_wo_dump.php on line 56
+[04-Nov-2022 15:27:37 America/Boise] PHP Warning:  include(/dumpsys/pages/sources/function.php): Failed to open stream: No such file or directory in /home4/whereiea/public_html/dumpsys/pages/tables/regions_report.php on line 9
+[04-Nov-2022 15:27:37 America/Boise] PHP Warning:  include(): Failed opening '/dumpsys/pages/sources/function.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home4/whereiea/public_html/dumpsys/pages/tables/regions_report.php on line 9
+[04-Nov-2022 15:27:37 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "sidebar" in /home4/whereiea/public_html/dumpsys/pages/tables/regions_report.php:57
+Stack trace:
+#0 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/pages/tables/regions_report.php on line 57
+[04-Nov-2022 15:29:03 America/Boise] PHP Warning:  include(/dumpsys/pages/sources/function.php): Failed to open stream: No such file or directory in /home4/whereiea/public_html/dumpsys/pages/tables/regions_report.php on line 9
+[04-Nov-2022 15:29:03 America/Boise] PHP Warning:  include(): Failed opening '/dumpsys/pages/sources/function.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home4/whereiea/public_html/dumpsys/pages/tables/regions_report.php on line 9
+[04-Nov-2022 15:29:03 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "sidebar" in /home4/whereiea/public_html/dumpsys/pages/tables/regions_report.php:57
+Stack trace:
+#0 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/pages/tables/regions_report.php on line 57
+[05-Nov-2022 01:25:27 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "sidebar" in /home4/whereiea/public_html/dumpsys/pages/tables/regions_report.php:57
+Stack trace:
+#0 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/pages/tables/regions_report.php on line 57
+[05-Nov-2022 01:57:21 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "sidebar" in /home4/whereiea/public_html/dumpsys/pages/tables/regions_report.php:57
+Stack trace:
+#0 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/pages/tables/regions_report.php on line 57
+[05-Nov-2022 01:57:22 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "sidebar" in /home4/whereiea/public_html/dumpsys/pages/tables/regions_report.php:57
+Stack trace:
+#0 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/pages/tables/regions_report.php on line 57
+[05-Nov-2022 01:57:40 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "sidebar" in /home4/whereiea/public_html/dumpsys/pages/tables/regions_report.php:57
+Stack trace:
+#0 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/pages/tables/regions_report.php on line 57
+[08-Nov-2022 10:42:42 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function main_slide() in /home4/whereiea/public_html/dumpsys/pages/tables/mun_details.php:69
+Stack trace:
+#0 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/pages/tables/mun_details.php on line 69
+[08-Nov-2022 12:01:42 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function main_slide() in /home4/whereiea/public_html/dumpsys/pages/tables/dumps_list.php:55
+Stack trace:
+#0 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/pages/tables/dumps_list.php on line 55
+[15-Nov-2022 13:34:55 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function main_slide() in /home4/whereiea/public_html/dumpsys/pages/tables/mun_wo_dump.php:56
+Stack trace:
+#0 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/pages/tables/mun_wo_dump.php on line 56
+[15-Nov-2022 13:40:32 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function main_slide() in /home4/whereiea/public_html/dumpsys/pages/tables/contracts_list.php:55
+Stack trace:
+#0 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/pages/tables/contracts_list.php on line 55
+[15-Nov-2022 13:54:20 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function main_slide() in /home4/whereiea/public_html/dumpsys/pages/tables/mun_report.php:56
+Stack trace:
+#0 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/pages/tables/mun_report.php on line 56
+[15-Nov-2022 14:07:02 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function main_slide() in /home4/whereiea/public_html/dumpsys/pages/tables/mun_details.php:69
+Stack trace:
+#0 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/pages/tables/mun_details.php on line 69
+[15-Nov-2022 17:20:02 America/Boise] PHP Warning:  include(../dumpsys/pages/sources/config.php): Failed to open stream: No such file or directory in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 118
+[15-Nov-2022 17:20:02 America/Boise] PHP Warning:  include(): Failed opening '../dumpsys/pages/sources/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 118
+[15-Nov-2022 17:20:02 America/Boise] PHP Warning:  Undefined variable $conn in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 119
+[15-Nov-2022 17:20:02 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_set_charset(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/whereiea/public_html/dumpsys/pages/sources/function.php:119
+Stack trace:
+#0 /home4/whereiea/public_html/dumpsys/pages/sources/function.php(119): mysqli_set_charset(NULL, 'utf8')
+#1 /home4/whereiea/public_html/dumpsys/pages/tables/mun_details.php(178): get_details2('SELECT GROUP_CO...', '\xD8\xA7\xD9\x84\xD9\x85\xD9\x86\xD8\xB7\xD9\x82\xD8\xA9 ...')
+#2 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 119
+[15-Nov-2022 17:20:37 America/Boise] PHP Warning:  include(../dumpsys/pages/sources/config.php): Failed to open stream: No such file or directory in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 118
+[15-Nov-2022 17:20:37 America/Boise] PHP Warning:  include(): Failed opening '../dumpsys/pages/sources/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 118
+[15-Nov-2022 17:20:37 America/Boise] PHP Warning:  Undefined variable $conn in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 119
+[15-Nov-2022 17:20:37 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_set_charset(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/whereiea/public_html/dumpsys/pages/sources/function.php:119
+Stack trace:
+#0 /home4/whereiea/public_html/dumpsys/pages/sources/function.php(119): mysqli_set_charset(NULL, 'utf8')
+#1 /home4/whereiea/public_html/dumpsys/pages/tables/mun_details.php(178): get_details2('SELECT GROUP_CO...', '\xD8\xA7\xD9\x84\xD9\x85\xD9\x86\xD8\xB7\xD9\x82\xD8\xA9 ...')
+#2 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 119
+[15-Nov-2022 17:20:48 America/Boise] PHP Warning:  include(../dumpsys/pages/sources/config.php): Failed to open stream: No such file or directory in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 118
+[15-Nov-2022 17:20:48 America/Boise] PHP Warning:  include(): Failed opening '../dumpsys/pages/sources/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 118
+[15-Nov-2022 17:20:48 America/Boise] PHP Warning:  Undefined variable $conn in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 119
+[15-Nov-2022 17:20:48 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_set_charset(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/whereiea/public_html/dumpsys/pages/sources/function.php:119
+Stack trace:
+#0 /home4/whereiea/public_html/dumpsys/pages/sources/function.php(119): mysqli_set_charset(NULL, 'utf8')
+#1 /home4/whereiea/public_html/dumpsys/pages/tables/com_details.php(169): get_details2('SELECT GROUP_CO...', '\xD8\xA7\xD9\x84\xD8\xA8\xD9\x84\xD8\xAF\xD9\x8A\xD8\xA7\xD8...')
+#2 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 119
+[15-Nov-2022 17:23:20 America/Boise] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_details(), 2 passed in /home4/whereiea/public_html/dumpsys/pages/tables/com_details.php on line 169 and exactly 3 expected in /home4/whereiea/public_html/dumpsys/pages/sources/function.php:98
+Stack trace:
+#0 /home4/whereiea/public_html/dumpsys/pages/tables/com_details.php(169): get_details('SELECT GROUP_CO...', '\xD8\xA7\xD9\x84\xD8\xA8\xD9\x84\xD8\xAF\xD9\x8A\xD8\xA7\xD8...')
+#1 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 98
+[15-Nov-2022 18:11:47 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function main_slide() in /home4/whereiea/public_html/dumpsys/pages/tables/tickets_list.php:34
+Stack trace:
+#0 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/pages/tables/tickets_list.php on line 34

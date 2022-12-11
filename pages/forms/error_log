@@ -1,0 +1,42 @@
+[24-Sep-2022 03:08:17 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 254
+[24-Sep-2022 14:34:39 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 254
+[25-Sep-2022 03:12:25 America/Boise] PHP Parse error:  Unmatched '}' in /home4/whereiea/public_html/dumpsys/pages/forms/add_ticket.php on line 45
+[25-Sep-2022 03:13:17 America/Boise] PHP Parse error:  Unmatched '}' in /home4/whereiea/public_html/dumpsys/pages/forms/add_ticket.php on line 45
+[25-Sep-2022 03:13:38 America/Boise] PHP Parse error:  Unmatched '}' in /home4/whereiea/public_html/dumpsys/pages/forms/add_ticket.php on line 45
+[25-Sep-2022 03:14:26 America/Boise] PHP Parse error:  Unmatched '}' in /home4/whereiea/public_html/dumpsys/pages/forms/add_ticket.php on line 45
+[25-Sep-2022 03:15:35 America/Boise] PHP Parse error:  Unmatched '}' in /home4/whereiea/public_html/dumpsys/pages/forms/add_ticket.php on line 55
+[25-Sep-2022 03:16:10 America/Boise] PHP Parse error:  Unmatched '}' in /home4/whereiea/public_html/dumpsys/pages/forms/add_ticket.php on line 58
+[25-Sep-2022 03:16:42 America/Boise] PHP Parse error:  Unmatched '}' in /home4/whereiea/public_html/dumpsys/pages/forms/add_ticket.php on line 45
+[25-Sep-2022 03:19:22 America/Boise] PHP Parse error:  Unclosed '{' on line 4 in /home4/whereiea/public_html/dumpsys/pages/forms/add_ticket.php on line 60
+[01-Nov-2022 12:45:27 America/Boise] PHP Warning:  Undefined variable $t in /home4/whereiea/public_html/dumpsys/pages/forms/q_dumps.php on line 502
+[15-Nov-2022 13:58:36 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function main_slide() in /home4/whereiea/public_html/dumpsys/pages/forms/add_municipality.php:57
+Stack trace:
+#0 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/pages/forms/add_municipality.php on line 57
+[15-Nov-2022 14:02:26 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function main_slide() in /home4/whereiea/public_html/dumpsys/pages/forms/add_municipality.php:57
+Stack trace:
+#0 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/pages/forms/add_municipality.php on line 57
+[15-Nov-2022 18:06:08 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function main_slide() in /home4/whereiea/public_html/dumpsys/pages/forms/add_dump.php:49
+Stack trace:
+#0 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/pages/forms/add_dump.php on line 49
+[15-Nov-2022 18:08:43 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function main_slide() in /home4/whereiea/public_html/dumpsys/pages/forms/add_user.php:46
+Stack trace:
+#0 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/pages/forms/add_user.php on line 46
+[15-Nov-2022 18:10:05 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY Mname' at line 1 in /home4/whereiea/public_html/dumpsys/pages/sources/function.php:447
+Stack trace:
+#0 /home4/whereiea/public_html/dumpsys/pages/sources/function.php(447): mysqli->query('SELECT * FROM m...')
+#1 /home4/whereiea/public_html/dumpsys/pages/forms/Q_municipality.php(118): popu(NULL, 'Mname')
+#2 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 447
+[15-Nov-2022 18:10:16 America/Boise] PHP Warning:  Trying to access array offset on value of type null in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 256
+[15-Nov-2022 18:10:16 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY name' at line 1 in /home4/whereiea/public_html/dumpsys/pages/sources/function.php:78
+Stack trace:
+#0 /home4/whereiea/public_html/dumpsys/pages/sources/function.php(78): mysqli->query('SELECT * from d...')
+#1 /home4/whereiea/public_html/dumpsys/pages/forms/q_dumps.php(95): get_result(NULL, 'name')
+#2 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 78
+[15-Nov-2022 18:14:58 America/Boise] PHP Warning:  Undefined variable $t in /home4/whereiea/public_html/dumpsys/pages/forms/q_dumps.php on line 502
+[15-Nov-2022 18:22:06 America/Boise] PHP Warning:  Undefined variable $t in /home4/whereiea/public_html/dumpsys/pages/forms/q_dumps.php on line 502

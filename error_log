@@ -1,0 +1,354 @@
+[28-Oct-2022 08:00:38 America/Boise] PHP Warning:  include(../sources/config.php): Failed to open stream: No such file or directory in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 8
+[28-Oct-2022 08:00:38 America/Boise] PHP Warning:  include(): Failed opening '../sources/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 8
+[28-Oct-2022 08:08:59 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function get_company() in /home4/whereiea/public_html/dumpsys/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/index.php on line 2
+[28-Oct-2022 08:09:25 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function get_company() in /home4/whereiea/public_html/dumpsys/index.php:4
+Stack trace:
+#0 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/index.php on line 4
+[28-Oct-2022 08:09:27 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function get_company() in /home4/whereiea/public_html/dumpsys/index.php:4
+Stack trace:
+#0 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/index.php on line 4
+[28-Oct-2022 08:11:18 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function getcompany() in /home4/whereiea/public_html/dumpsys/index.php:12
+Stack trace:
+#0 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/index.php on line 12
+[28-Oct-2022 08:13:02 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function getcompany() in /home4/whereiea/public_html/dumpsys/index.php:12
+Stack trace:
+#0 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/index.php on line 12
+[28-Oct-2022 08:13:22 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function getcompany() in /home4/whereiea/public_html/dumpsys/index.php:12
+Stack trace:
+#0 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/index.php on line 12
+[28-Oct-2022 08:20:06 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function get_company() in /home4/whereiea/public_html/dumpsys/index.php:4
+Stack trace:
+#0 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/index.php on line 4
+[28-Oct-2022 08:20:46 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function get_company() in /home4/whereiea/public_html/dumpsys/index.php:4
+Stack trace:
+#0 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/index.php on line 4
+[28-Oct-2022 09:40:17 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function getcompany() in /home4/whereiea/public_html/dumpsys/index.php:12
+Stack trace:
+#0 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/index.php on line 12
+[28-Oct-2022 09:44:40 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function getcompany() in /home4/whereiea/public_html/dumpsys/index.php:12
+Stack trace:
+#0 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/index.php on line 12
+[28-Oct-2022 10:18:41 America/Boise] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in /home4/whereiea/public_html/dumpsys/index.php on line 11
+[28-Oct-2022 10:18:46 America/Boise] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in /home4/whereiea/public_html/dumpsys/index.php on line 11
+[28-Oct-2022 10:19:17 America/Boise] PHP Parse error:  syntax error, unexpected identifier "mysqli_set_charset" in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 196
+[28-Oct-2022 10:19:24 America/Boise] PHP Parse error:  syntax error, unexpected identifier "mysqli_set_charset" in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 196
+[28-Oct-2022 10:19:31 America/Boise] PHP Parse error:  syntax error, unexpected identifier "mysqli_set_charset" in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 196
+[28-Oct-2022 10:20:05 America/Boise] PHP Parse error:  syntax error, unexpected identifier "mysqli_set_charset" in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 196
+[28-Oct-2022 10:20:46 America/Boise] PHP Parse error:  syntax error, unexpected identifier "mysqli_set_charset" in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 196
+[28-Oct-2022 10:25:29 America/Boise] PHP Parse error:  syntax error, unexpected identifier "mysqli_set_charset" in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 196
+[28-Oct-2022 10:48:45 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "DB_PATH" in /home4/whereiea/public_html/dumpsys/inipath.php:3
+Stack trace:
+#0 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/inipath.php on line 3
+[28-Oct-2022 10:49:08 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "DB_PATH" in /home4/whereiea/public_html/dumpsys/inipath.php:3
+Stack trace:
+#0 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/inipath.php on line 3
+[28-Oct-2022 11:14:44 America/Boise] PHP Warning:  include(../../../dumpsys/inipath.php): Failed to open stream: No such file or directory in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 8
+[28-Oct-2022 11:14:44 America/Boise] PHP Warning:  include(): Failed opening '../../../dumpsys/inipath.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 8
+[28-Oct-2022 11:14:44 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "DB_PATH" in /home4/whereiea/public_html/dumpsys/pages/sources/function.php:195
+Stack trace:
+#0 /home4/whereiea/public_html/dumpsys/pages/sources/function.php(9): get_company()
+#1 /home4/whereiea/public_html/dumpsys/index.php(11): include('/home4/whereiea...')
+#2 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 195
+[28-Oct-2022 11:14:46 America/Boise] PHP Warning:  include(../../../dumpsys/inipath.php): Failed to open stream: No such file or directory in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 8
+[28-Oct-2022 11:14:46 America/Boise] PHP Warning:  include(): Failed opening '../../../dumpsys/inipath.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 8
+[28-Oct-2022 11:14:46 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "DB_PATH" in /home4/whereiea/public_html/dumpsys/pages/sources/function.php:195
+Stack trace:
+#0 /home4/whereiea/public_html/dumpsys/pages/sources/function.php(9): get_company()
+#1 /home4/whereiea/public_html/dumpsys/index.php(11): include('/home4/whereiea...')
+#2 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 195
+[28-Oct-2022 11:15:55 America/Boise] PHP Warning:  include(../../../dumpsys/inipath.php): Failed to open stream: No such file or directory in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 8
+[28-Oct-2022 11:15:55 America/Boise] PHP Warning:  include(): Failed opening '../../../dumpsys/inipath.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 8
+[28-Oct-2022 11:15:55 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "DB_PATH" in /home4/whereiea/public_html/dumpsys/pages/sources/function.php:194
+Stack trace:
+#0 /home4/whereiea/public_html/dumpsys/index.php(12): get_company()
+#1 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 194
+[28-Oct-2022 11:16:09 America/Boise] PHP Warning:  include(../../../dumpsys/inipath.php): Failed to open stream: No such file or directory in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 8
+[28-Oct-2022 11:16:09 America/Boise] PHP Warning:  include(): Failed opening '../../../dumpsys/inipath.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 8
+[28-Oct-2022 11:16:09 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "DB_PATH" in /home4/whereiea/public_html/dumpsys/pages/sources/function.php:194
+Stack trace:
+#0 /home4/whereiea/public_html/dumpsys/index.php(12): get_company()
+#1 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 194
+[28-Oct-2022 11:17:02 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function dav_dump() in /home4/whereiea/public_html/dumpsys/inipath.php:4
+Stack trace:
+#0 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/inipath.php on line 4
+[28-Oct-2022 11:17:05 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function dav_dump() in /home4/whereiea/public_html/dumpsys/inipath.php:4
+Stack trace:
+#0 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/inipath.php on line 4
+[28-Oct-2022 11:17:07 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function dav_dump() in /home4/whereiea/public_html/dumpsys/inipath.php:4
+Stack trace:
+#0 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/inipath.php on line 4
+[28-Oct-2022 11:18:25 America/Boise] PHP Warning:  include(../../../dumpsys/inipath.php): Failed to open stream: No such file or directory in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 8
+[28-Oct-2022 11:18:25 America/Boise] PHP Warning:  include(): Failed opening '../../../dumpsys/inipath.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 8
+[28-Oct-2022 11:18:25 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "DB_PATH" in /home4/whereiea/public_html/dumpsys/pages/sources/function.php:194
+Stack trace:
+#0 /home4/whereiea/public_html/dumpsys/index.php(12): get_company()
+#1 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 194
+[28-Oct-2022 11:25:22 America/Boise] PHP Warning:  include(../../../dumpsys/inipath.php): Failed to open stream: No such file or directory in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 8
+[28-Oct-2022 11:25:22 America/Boise] PHP Warning:  include(): Failed opening '../../../dumpsys/inipath.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 8
+[28-Oct-2022 11:25:22 America/Boise] PHP Warning:  include(../../../dumpsys/inipath.php): Failed to open stream: No such file or directory in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 194
+[28-Oct-2022 11:25:22 America/Boise] PHP Warning:  include(): Failed opening '../../../dumpsys/inipath.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 194
+[28-Oct-2022 11:25:22 America/Boise] PHP Warning:  Undefined variable $conn in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 195
+[28-Oct-2022 11:25:22 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_set_charset(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/whereiea/public_html/dumpsys/pages/sources/function.php:195
+Stack trace:
+#0 /home4/whereiea/public_html/dumpsys/pages/sources/function.php(195): mysqli_set_charset(NULL, 'utf8')
+#1 /home4/whereiea/public_html/dumpsys/index.php(12): get_company()
+#2 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 195
+[28-Oct-2022 11:27:59 America/Boise] PHP Warning:  include(../../../dumpsys/inipath.php): Failed to open stream: No such file or directory in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 8
+[28-Oct-2022 11:27:59 America/Boise] PHP Warning:  include(): Failed opening '../../../dumpsys/inipath.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 8
+[28-Oct-2022 11:27:59 America/Boise] PHP Warning:  include(../../../dumpsys/inipath.php): Failed to open stream: No such file or directory in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 194
+[28-Oct-2022 11:27:59 America/Boise] PHP Warning:  include(): Failed opening '../../../dumpsys/inipath.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 194
+[28-Oct-2022 11:27:59 America/Boise] PHP Warning:  Undefined variable $conn in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 195
+[28-Oct-2022 11:28:00 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_set_charset(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/whereiea/public_html/dumpsys/pages/sources/function.php:195
+Stack trace:
+#0 /home4/whereiea/public_html/dumpsys/pages/sources/function.php(195): mysqli_set_charset(NULL, 'utf8')
+#1 /home4/whereiea/public_html/dumpsys/index.php(12): get_company()
+#2 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 195
+[28-Oct-2022 12:06:04 America/Boise] PHP Warning:  include(../../../dumpsys/inipath.php): Failed to open stream: No such file or directory in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 193
+[28-Oct-2022 12:06:04 America/Boise] PHP Warning:  include(): Failed opening '../../../dumpsys/inipath.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 193
+[28-Oct-2022 12:06:04 America/Boise] PHP Warning:  Undefined variable $conn in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 194
+[28-Oct-2022 12:06:04 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_set_charset(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/whereiea/public_html/dumpsys/pages/sources/function.php:194
+Stack trace:
+#0 /home4/whereiea/public_html/dumpsys/pages/sources/function.php(194): mysqli_set_charset(NULL, 'utf8')
+#1 /home4/whereiea/public_html/dumpsys/index.php(12): get_company()
+#2 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 194
+[28-Oct-2022 12:20:01 America/Boise] PHP Warning:  include(../../../dumpsys/inipath.php): Failed to open stream: No such file or directory in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 193
+[28-Oct-2022 12:20:01 America/Boise] PHP Warning:  include(): Failed opening '../../../dumpsys/inipath.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 193
+[28-Oct-2022 12:20:01 America/Boise] PHP Warning:  Undefined variable $conn in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 194
+[28-Oct-2022 12:20:01 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_set_charset(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/whereiea/public_html/dumpsys/pages/sources/function.php:194
+Stack trace:
+#0 /home4/whereiea/public_html/dumpsys/pages/sources/function.php(194): mysqli_set_charset(NULL, 'utf8')
+#1 /home4/whereiea/public_html/dumpsys/index.php(12): get_company()
+#2 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 194
+[28-Oct-2022 12:20:29 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function qury_free() in /home4/whereiea/public_html/dumpsys/index.php:19
+Stack trace:
+#0 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/index.php on line 19
+[28-Oct-2022 12:20:31 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function qury_free() in /home4/whereiea/public_html/dumpsys/index.php:19
+Stack trace:
+#0 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/index.php on line 19
+[28-Oct-2022 12:20:32 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function qury_free() in /home4/whereiea/public_html/dumpsys/index.php:19
+Stack trace:
+#0 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/index.php on line 19
+[28-Oct-2022 12:20:32 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function qury_free() in /home4/whereiea/public_html/dumpsys/index.php:19
+Stack trace:
+#0 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/index.php on line 19
+[28-Oct-2022 12:20:38 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function qury_free() in /home4/whereiea/public_html/dumpsys/index.php:19
+Stack trace:
+#0 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/index.php on line 19
+[28-Oct-2022 12:20:40 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function qury_free() in /home4/whereiea/public_html/dumpsys/index.php:19
+Stack trace:
+#0 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/index.php on line 19
+[28-Oct-2022 12:31:32 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "pipo" in /home4/whereiea/public_html/dumpsys/pages/sources/function.php:194
+Stack trace:
+#0 /home4/whereiea/public_html/dumpsys/index.php(477): get_company()
+#1 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 194
+[28-Oct-2022 12:31:40 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "pipo" in /home4/whereiea/public_html/dumpsys/pages/sources/function.php:194
+Stack trace:
+#0 /home4/whereiea/public_html/dumpsys/index.php(477): get_company()
+#1 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 194
+[28-Oct-2022 12:32:19 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "pipo" in /home4/whereiea/public_html/dumpsys/pages/sources/function.php:194
+Stack trace:
+#0 /home4/whereiea/public_html/dumpsys/index.php(477): get_company()
+#1 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 194
+[28-Oct-2022 12:32:57 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "pipo" in /home4/whereiea/public_html/dumpsys/pages/sources/function.php:194
+Stack trace:
+#0 /home4/whereiea/public_html/dumpsys/index.php(477): get_company()
+#1 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 194
+[28-Oct-2022 12:32:59 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "pipo" in /home4/whereiea/public_html/dumpsys/pages/sources/function.php:194
+Stack trace:
+#0 /home4/whereiea/public_html/dumpsys/index.php(477): get_company()
+#1 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 194
+[28-Oct-2022 12:33:00 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "pipo" in /home4/whereiea/public_html/dumpsys/pages/sources/function.php:194
+Stack trace:
+#0 /home4/whereiea/public_html/dumpsys/index.php(477): get_company()
+#1 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 194
+[28-Oct-2022 12:33:00 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "pipo" in /home4/whereiea/public_html/dumpsys/pages/sources/function.php:194
+Stack trace:
+#0 /home4/whereiea/public_html/dumpsys/index.php(477): get_company()
+#1 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 194
+[28-Oct-2022 12:33:03 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "pipo" in /home4/whereiea/public_html/dumpsys/pages/sources/function.php:194
+Stack trace:
+#0 /home4/whereiea/public_html/dumpsys/index.php(477): get_company()
+#1 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 194
+[28-Oct-2022 12:33:13 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "pipo" in /home4/whereiea/public_html/dumpsys/pages/sources/function.php:194
+Stack trace:
+#0 /home4/whereiea/public_html/dumpsys/index.php(477): get_company()
+#1 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 194
+[28-Oct-2022 12:33:26 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "pipo" in /home4/whereiea/public_html/dumpsys/pages/sources/function.php:194
+Stack trace:
+#0 /home4/whereiea/public_html/dumpsys/index.php(477): get_company()
+#1 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 194
+[28-Oct-2022 12:34:00 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "pipo" in /home4/whereiea/public_html/dumpsys/pages/sources/function.php:194
+Stack trace:
+#0 /home4/whereiea/public_html/dumpsys/index.php(477): get_company()
+#1 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 194
+[28-Oct-2022 12:46:16 America/Boise] PHP Warning:  include(../../globals.php): Failed to open stream: No such file or directory in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 11
+[28-Oct-2022 12:46:16 America/Boise] PHP Warning:  include(): Failed opening '../../globals.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 11
+[28-Oct-2022 12:46:16 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "ROOT" in /home4/whereiea/public_html/dumpsys/pages/sources/function.php:13
+Stack trace:
+#0 /home4/whereiea/public_html/dumpsys/index.php(11): include()
+#1 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 13
+[28-Oct-2022 12:46:27 America/Boise] PHP Warning:  include(../../../globals.php): Failed to open stream: No such file or directory in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 11
+[28-Oct-2022 12:46:27 America/Boise] PHP Warning:  include(): Failed opening '../../../globals.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 11
+[28-Oct-2022 12:46:27 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "ROOT" in /home4/whereiea/public_html/dumpsys/pages/sources/function.php:13
+Stack trace:
+#0 /home4/whereiea/public_html/dumpsys/index.php(11): include()
+#1 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 13
+[28-Oct-2022 12:46:29 America/Boise] PHP Warning:  include(../../../globals.php): Failed to open stream: No such file or directory in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 11
+[28-Oct-2022 12:46:29 America/Boise] PHP Warning:  include(): Failed opening '../../../globals.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 11
+[28-Oct-2022 12:46:29 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "ROOT" in /home4/whereiea/public_html/dumpsys/pages/sources/function.php:13
+Stack trace:
+#0 /home4/whereiea/public_html/dumpsys/index.php(11): include()
+#1 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 13
+[28-Oct-2022 12:49:09 America/Boise] PHP Warning:  include(../../globals.php): Failed to open stream: No such file or directory in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 8
+[28-Oct-2022 12:49:09 America/Boise] PHP Warning:  include(): Failed opening '../../globals.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 8
+[28-Oct-2022 12:49:09 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "ROOT" in /home4/whereiea/public_html/dumpsys/pages/sources/function.php:10
+Stack trace:
+#0 /home4/whereiea/public_html/dumpsys/index.php(11): include()
+#1 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 10
+[28-Oct-2022 12:50:08 America/Boise] PHP Warning:  include(/home4/whereiea/public_htmldumpsys/pages/sources/config.php): Failed to open stream: No such file or directory in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 194
+[28-Oct-2022 12:50:08 America/Boise] PHP Warning:  include(): Failed opening '/home4/whereiea/public_htmldumpsys/pages/sources/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 194
+[28-Oct-2022 12:50:08 America/Boise] PHP Warning:  Undefined variable $conn in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 195
+[28-Oct-2022 12:50:08 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_set_charset(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/whereiea/public_html/dumpsys/pages/sources/function.php:195
+Stack trace:
+#0 /home4/whereiea/public_html/dumpsys/pages/sources/function.php(195): mysqli_set_charset(NULL, 'utf8')
+#1 /home4/whereiea/public_html/dumpsys/index.php(477): get_company()
+#2 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 195
+[28-Oct-2022 12:50:22 America/Boise] PHP Warning:  include(/home4/whereiea/public_htmldumpsys/pages/sources/config.php): Failed to open stream: No such file or directory in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 194
+[28-Oct-2022 12:50:22 America/Boise] PHP Warning:  include(): Failed opening '/home4/whereiea/public_htmldumpsys/pages/sources/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 194
+[28-Oct-2022 12:50:22 America/Boise] PHP Warning:  Undefined variable $conn in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 195
+[28-Oct-2022 12:50:22 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_set_charset(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/whereiea/public_html/dumpsys/pages/sources/function.php:195
+Stack trace:
+#0 /home4/whereiea/public_html/dumpsys/pages/sources/function.php(195): mysqli_set_charset(NULL, 'utf8')
+#1 /home4/whereiea/public_html/dumpsys/index.php(477): get_company()
+#2 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 195
+[28-Oct-2022 12:50:37 America/Boise] PHP Warning:  include(/home4/whereiea/public_htmldumpsys/pages/sources/config.php): Failed to open stream: No such file or directory in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 194
+[28-Oct-2022 12:50:37 America/Boise] PHP Warning:  include(): Failed opening '/home4/whereiea/public_htmldumpsys/pages/sources/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 194
+[28-Oct-2022 12:50:39 America/Boise] PHP Warning:  include(/home4/whereiea/public_htmldumpsys/pages/sources/config.php): Failed to open stream: No such file or directory in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 194
+[28-Oct-2022 12:50:39 America/Boise] PHP Warning:  include(): Failed opening '/home4/whereiea/public_htmldumpsys/pages/sources/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 194
+[28-Oct-2022 12:50:40 America/Boise] PHP Warning:  include(/home4/whereiea/public_htmldumpsys/pages/sources/config.php): Failed to open stream: No such file or directory in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 194
+[28-Oct-2022 12:50:40 America/Boise] PHP Warning:  include(): Failed opening '/home4/whereiea/public_htmldumpsys/pages/sources/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 194
+[28-Oct-2022 12:50:41 America/Boise] PHP Warning:  include(/home4/whereiea/public_htmldumpsys/pages/sources/config.php): Failed to open stream: No such file or directory in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 194
+[28-Oct-2022 12:50:41 America/Boise] PHP Warning:  include(): Failed opening '/home4/whereiea/public_htmldumpsys/pages/sources/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 194
+[28-Oct-2022 12:50:41 America/Boise] PHP Warning:  include(/home4/whereiea/public_htmldumpsys/pages/sources/config.php): Failed to open stream: No such file or directory in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 194
+[28-Oct-2022 12:50:41 America/Boise] PHP Warning:  include(): Failed opening '/home4/whereiea/public_htmldumpsys/pages/sources/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 194
+[03-Nov-2022 00:16:43 America/Boise] PHP Warning:  include(../sources/config.php): Failed to open stream: No such file or directory in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 250
+[03-Nov-2022 00:16:43 America/Boise] PHP Warning:  include(): Failed opening '../sources/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 250
+[03-Nov-2022 00:16:43 America/Boise] PHP Warning:  Undefined variable $conn in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 251
+[03-Nov-2022 00:16:43 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_set_charset(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/whereiea/public_html/dumpsys/pages/sources/function.php:251
+Stack trace:
+#0 /home4/whereiea/public_html/dumpsys/pages/sources/function.php(251): mysqli_set_charset(NULL, 'utf8')
+#1 /home4/whereiea/public_html/dumpsys/pages/sources/function.php(614): qury_free2('SELECT permissi...')
+#2 /home4/whereiea/public_html/dumpsys/index.php(105): main_slide()
+#3 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 251
+[03-Nov-2022 00:16:52 America/Boise] PHP Warning:  include(../sources/config.php): Failed to open stream: No such file or directory in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 250
+[03-Nov-2022 00:16:52 America/Boise] PHP Warning:  include(): Failed opening '../sources/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 250
+[03-Nov-2022 00:16:52 America/Boise] PHP Warning:  Undefined variable $conn in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 251
+[03-Nov-2022 00:16:52 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_set_charset(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/whereiea/public_html/dumpsys/pages/sources/function.php:251
+Stack trace:
+#0 /home4/whereiea/public_html/dumpsys/pages/sources/function.php(251): mysqli_set_charset(NULL, 'utf8')
+#1 /home4/whereiea/public_html/dumpsys/pages/sources/function.php(614): qury_free2('SELECT permissi...')
+#2 /home4/whereiea/public_html/dumpsys/index.php(105): main_slide()
+#3 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 251
+[03-Nov-2022 00:17:00 America/Boise] PHP Warning:  include(../sources/config.php): Failed to open stream: No such file or directory in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 250
+[03-Nov-2022 00:17:00 America/Boise] PHP Warning:  include(): Failed opening '../sources/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 250
+[03-Nov-2022 00:17:00 America/Boise] PHP Warning:  Undefined variable $conn in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 251
+[03-Nov-2022 00:17:00 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_set_charset(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/whereiea/public_html/dumpsys/pages/sources/function.php:251
+Stack trace:
+#0 /home4/whereiea/public_html/dumpsys/pages/sources/function.php(251): mysqli_set_charset(NULL, 'utf8')
+#1 /home4/whereiea/public_html/dumpsys/pages/sources/function.php(614): qury_free2('SELECT permissi...')
+#2 /home4/whereiea/public_html/dumpsys/index.php(105): main_slide()
+#3 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 251
+[03-Nov-2022 00:35:09 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function main_slide() in /home4/whereiea/public_html/dumpsys/index.php:4
+Stack trace:
+#0 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/index.php on line 4
+[03-Nov-2022 00:36:02 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function main_slide() in /home4/whereiea/public_html/dumpsys/index.php:4
+Stack trace:
+#0 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/index.php on line 4
+[03-Nov-2022 00:36:25 America/Boise] PHP Warning:  include(../sources/config.php): Failed to open stream: No such file or directory in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 249
+[03-Nov-2022 00:36:25 America/Boise] PHP Warning:  include(): Failed opening '../sources/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 249
+[03-Nov-2022 00:36:25 America/Boise] PHP Warning:  Undefined variable $conn in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 250
+[03-Nov-2022 00:36:25 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_set_charset(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/whereiea/public_html/dumpsys/pages/sources/function.php:250
+Stack trace:
+#0 /home4/whereiea/public_html/dumpsys/pages/sources/function.php(250): mysqli_set_charset(NULL, 'utf8')
+#1 /home4/whereiea/public_html/dumpsys/pages/sources/function.php(613): qury_free2('SELECT permissi...')
+#2 /home4/whereiea/public_html/dumpsys/index.php(12): main_slide()
+#3 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 250
+[03-Nov-2022 00:37:15 America/Boise] PHP Warning:  include(../sources/config.php): Failed to open stream: No such file or directory in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 249
+[03-Nov-2022 00:37:15 America/Boise] PHP Warning:  include(): Failed opening '../sources/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 249
+[03-Nov-2022 00:37:15 America/Boise] PHP Warning:  Undefined variable $conn in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 250
+[03-Nov-2022 00:37:15 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_set_charset(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/whereiea/public_html/dumpsys/pages/sources/function.php:250
+Stack trace:
+#0 /home4/whereiea/public_html/dumpsys/pages/sources/function.php(250): mysqli_set_charset(NULL, 'utf8')
+#1 /home4/whereiea/public_html/dumpsys/pages/sources/function.php(613): qury_free2('SELECT permissi...')
+#2 /home4/whereiea/public_html/dumpsys/index.php(22): main_slide()
+#3 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 250
+[03-Nov-2022 00:37:21 America/Boise] PHP Warning:  include(../sources/config.php): Failed to open stream: No such file or directory in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 249
+[03-Nov-2022 00:37:21 America/Boise] PHP Warning:  include(): Failed opening '../sources/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 249
+[03-Nov-2022 00:37:21 America/Boise] PHP Warning:  Undefined variable $conn in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 250
+[03-Nov-2022 00:37:21 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_set_charset(): Argument #1 ($mysql) must be of type mysqli, null given in /home4/whereiea/public_html/dumpsys/pages/sources/function.php:250
+Stack trace:
+#0 /home4/whereiea/public_html/dumpsys/pages/sources/function.php(250): mysqli_set_charset(NULL, 'utf8')
+#1 /home4/whereiea/public_html/dumpsys/pages/sources/function.php(613): qury_free2('SELECT permissi...')
+#2 /home4/whereiea/public_html/dumpsys/index.php(22): main_slide()
+#3 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/pages/sources/function.php on line 250
+[03-Nov-2022 09:35:50 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "sidebar" in /home4/whereiea/public_html/dumpsys/index.php:101
+Stack trace:
+#0 {main}
+  thrown in /home4/whereiea/public_html/dumpsys/index.php on line 101
